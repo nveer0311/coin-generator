@@ -1,0 +1,38 @@
+@-ms-viewport{
+  width: device-width;
+}
+body {
+  background-color: #a9c2f4;
+}
+
+.title {
+  color: #0c275e;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: 10px dotted white;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.button {
+  background-color: #0c275e;
+  color: white;
+  margin-left: 515px;
+  width: 390px;
+  height: 90px;
+  font-size: 45px;
+}
+
+.name-container {
+
+}
+
+@media screen and(max-width: 360px){
+  .title{
+    font-size:50px;
+  }
+
+  .button{
+    margin-left:250px;
+  }
+}
